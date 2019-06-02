@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "krish-portfolio",
   "main": "index.js",
+  "homepage": "https://krish-nair.github.io/krish-portfolio",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Krish Nair",
   "license": "MIT",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "node-sass": "^4.12.0"
   }
 }
