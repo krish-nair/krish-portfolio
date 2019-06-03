@@ -1,204 +1,121 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <title>Bootstrap Single Page Website</title>
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-      <style>
-          .body{
-              position: relative;
-          }
-          .footer{
-              position: relative;
-              left: 0;
-              bottom: 0;
-              width: 100%;
-              text-align: center;
-          }
-          .jumbotron{
-              background-color: white;
-              background-size: cover;
-          }
-          #home, #page1, #page2, #contact-us, #image1, #image2, #imgDetail{
-              padding-top: 50px;
-              background-color: white;
-              color: black;
-              height: 1000px;
-          }
-      </style>
-    
-  </head>
-  <body data-spy="scroll" data-target=".navbar" data-offset="10">
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-  <a class="navbar-brand" href="#">Krish Nair</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#page1">Page1</a>
-      </li>
-        <li class="nav-item">
-        <a class="nav-link" href="#page2">Page2</a>
-      </li>
-        <li class="nav-item">
-        <a class="nav-link" href="#contact-us">Contact us</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Images
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#image1">Image Page 1</a>
-          <a class="dropdown-item" href="#image2">Image Page 2</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
+        <title>SkaterX Play with pride</title>
+        <link rel="stylesheet" href="assets/css/semantic.min.css">
+        <link rel="stylesheet" href="assets/css/mycss.css">
+    </head>
+    <body id="bgi">
+        <header id="hero">
+            <nav class="ui huge inverted menu">
+                <menu class="left-item">
+                    <a class="logo item" href="#">SkaterX&trade;</a>
+                </menu>
+                <menu class="right item">
+                    <a href="#" class="item">X-Hub</a>
+                    <a href="#" class="item">X-Skaters</a>
+                    <a href="#" class="item">Cities</a>
+                    <a href="#" class="item">Shop</a>
+                    <a href="#" class="item">Contact</a>
+                </menu>
+            </nav>
+        </header>
+        <div class="ui container">
+            <div class="landing"></div>
         </div>
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
-</nav>
-      <div class="container">
-          <div id="home" class="container-fluid">
-              <div class="jubotron">
-                  <div class="container">
-                      <img src="Images/hero.jpg" alt="hero" class="img-thumbnail rounded mx-auto d-block">
-                      <h1>Welcome to my Responsive Website Home Page</h1>
-                  </div>
-              </div>
-          </div>
-          
-          <div id="page1" class="container-fluid">
-              <h1>This is page 1</h1>
-              <hr>
-              <p>You are now in page 1<br>
-                  You can write any content
-                  and add aything here like images etc...
-                  <img src="../dist/img/background.jpg">
-              </p>
-          </div>
-          <div id="page2" class="container-fluid">
-              <h1>This is page 2</h1>
-              <hr>
-              <p>You are now in page 2<br>
-                  You can write any content
-                  and add aything here like images etc...
-              </p>
-          </div>
-          <div id="imgDetail" class="container-fluid">
-              <h1>iPhone X </h1>
-              <hr>
-              <p>You are now in image detail page...<br>
-                  You can write any content
-                  and add aything here like images etc...
-              </p>
-          </div>
-          
-          <div id="contact-us" class="container-fluid">
-              <h2>Contact us</h2>
-              <form>
-                  <div class="form-group">
-                      <label>Enter Your Email:</label>
-                      <input type="text" class="form-control" placeholder="Enter email..." aria-describedby="emailhelp">
-                      <small id="emailhelp" class="form-text form-muted">We never share your email id</small> 
-                  </div>
-                  <div class="form-group">
-                      <label>Subject:</label>
-                      <input type="text" class="form-control" placeholder="Enter subject...">
-                  </div>
-                  <div class="form-group">
-                      <label>Message:</label>
-                      <textarea class="form-control" placeholder="Enter your message..." rows="10"></textarea>
-                  </div>
-                  <div class="form-group">
-                      <button type="button" class="btn btn-primary">Submit</button>
-                      <button type="reset" class="btn btn-warning">Clear</button>
-                  </div>
-              </form>
-          </div>
-          
-          <div id="image1" class="container-fluid">
-              <div class="container">
-                  <div class="row">
-                      <div class="col-lg-12">
-                          <h1>Bootstrap Image Gallery</h1>
-                      </div>
-                      <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                          <a href="#imgDetail"><img src="Images/iPhone.jpg" alt="iPhone" class="img-thumbnail"></a>
-                      </div>
-                      <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                          <img src="Images/laptop.jpg" alt="laptop" class="img-thumbnail">
-                      </div>
-                      <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                          <img src="Images/iMac1.jpg" alt="imac1" class="img-thumbnail">
-                      </div>
-                      <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                          <img src="Images/iMac.jpg" alt="imac" class="img-thumbnail">
-                      </div>
-                  </div>
-              </div>
-          </div>
-          
-          <div id="image2" class="container-fluid">
-              <h2>This is image page 2</h2>
-          </div>
-      </div>
-      
-      <div class="footer">
-          <hr>
-          <p>Krish-Nair &copy; 2018 - 2019</p>
-      </div>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-    
-  </body>
+        <hr><br><br>
+        <!-- Accordion-->
+        <div class="ui inverted accordion">
+            <div class="active title">
+                <i class="dropdwon icon"></i>
+                What is ipsum?
+            </div>
+            <div class="active content">
+                <div class="ui horizontal divider"><i class="shipping icon"></i></div>
+                <div class="ui green message">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                </div>
+            </div>
+            <div class="title">
+                <i class="dropdwon icon"></i>
+                What is ipsum?
+            </div>
+            <div class="content">
+                <div class="ui horizontal divider"><i class="desktop icon"></i></div>
+                <div class="ui red message">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                </div>
+            </div>
+        </div>
+        <hr><br>
+        <form class="ui raised form segment">
+            <div class="ui two fields">
+                <div class="field">
+                    <label>First Name</label>
+                    <input type="text" name="first-name" placeholder="First Name">
+                </div>
+                <div class="field">
+                    <label>Last Name</label>
+                    <input type="text" name="last-name" placeholder="Last Name">
+                </div>
+            </div>
+            <div class="field">
+                <label>Password</label>
+                <input type="password" placeholder="password" name="password" autocomplete="off">
+            </div>
+            <button class="ui blue submit button">Submit</button>
+        </form>
+
+        <div class="ui modal">
+            <i class="close icon"></i>
+            <div class="header">Header</div>
+            <div class="content">
+                <div class="left">
+                    Some content to the left
+                </div>
+                <div class="right">Some right content</div>
+            </div>
+            <div class="actions">
+                <button class="ui negative button">Close</button>
+                <button class="ui positive button">Ok</button>
+            </div>
+        </div>
+        <!-- Rating -->
+        <hr>
+        <div class="ui heart rating" data-rating="-1" data-max-rating="3"></div>
+        <hr>
+
+        <!-- Tab -->
+        <hr>
+        <div class="ui top attached tabular menu">
+            <div class="active blue item">Accepted</div>
+            <div class="active item">Rejected</div>
+            <div class="active item">Pending</div>
+        </div>
+        <hr>
+        <br>
+
+        <div class="ui top attached tabular menu">
+            <a class="item" data-tab="first">First</a>
+            <a class="item" data-tab="second">Second</a>
+            <a class="item active" data-tab="third">Third</a>
+        </div>
+        <div class="ui bottom attached tab segment" data-tab="first">
+            First
+        </div>
+        <div class="ui bottom attached tab segment" data-tab="second">
+            Second
+        </div>
+        <div class="ui bottom attached tab segment active" data-tab="third">
+            Third
+        </div>
+
+
+
+    </body>
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/semantic.min.js"></script>
+    <script src="assets/js/myJs.js"></script>
 </html>
