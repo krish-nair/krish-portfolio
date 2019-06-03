@@ -1,1 +1,0 @@
-var myInt = 3;
