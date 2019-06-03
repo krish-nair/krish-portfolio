@@ -1,0 +1,5 @@
+Problem: npm run deploy command did'nt work, so could'nd publish the website on gh-pages. Giving the ERROR1.
+
+Solution: Created a gh-pages on github manually and run the npm run deploy command in the branch.
+
+Result: Problem solved
